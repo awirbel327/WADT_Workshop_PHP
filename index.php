@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!--Task 1-->
     <?php
         function dateAndTime(){
           
@@ -19,6 +20,7 @@
     ?>
     <br><br><br>
 
+    <!--Task 2-->
     <form  action="returnData.php" method="post">
     Surename: <input type="text" name="surename"><br><br>
     Name: <input type="text" name="name"><br><br>
@@ -27,6 +29,7 @@
     </form>
     <br><br>
     
+    <!--Task 1 output function-->
     <footer class="footer bg-black small text-center text-white-50">
         <div class="container px-4 px-lg-5">Copyright &copy; Unicorn GmbH & Co. kg</div>
         <?php
